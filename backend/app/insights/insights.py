@@ -1,4 +1,5 @@
 """Career insights: standalone CV analysis, grounded rule-based + optional LLM."""
+from __future__ import annotations
 import re
 
 from ..llm.provider import get_provider

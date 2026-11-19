@@ -63,13 +63,23 @@ session payload with each request. CV data persists only in your browser's
 
 ## Running
 
-Backend (Python 3.10+, tested on 3.12):
+Backend (Python 3.9+; tested on 3.9 and 3.12):
+
+```bash
+pip install -r backend/requirements.txt
+python run.py                    # starts the API on http://127.0.0.1:8000
+```
+
+`run.py` is a convenience launcher — equivalent to:
 
 ```bash
 cd backend
-pip install -r requirements.txt
 uvicorn app.main:app --port 8000
 ```
+
+Run the two processes in separate terminals (backend first, then the
+frontend). On Windows, use your venv for both:
+`venv\Scripts\activate` before each command.
 
 Frontend:
 

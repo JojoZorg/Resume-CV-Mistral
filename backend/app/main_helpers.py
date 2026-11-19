@@ -1,4 +1,5 @@
 """Helpers kept out of the route module for readability."""
+from __future__ import annotations
 import re
 
 from .schemas import ChangeCount, CVData, DiffSummary, JDRequirements

@@ -1,4 +1,5 @@
 """JD requirement extraction: skills, seniority, keywords, responsibilities, domain."""
+from __future__ import annotations
 import re
 
 from ..schemas import JDRequirements

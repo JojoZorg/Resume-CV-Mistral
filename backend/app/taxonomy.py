@@ -4,6 +4,7 @@ Everything in this module is used to keep the pipeline grounded: skills are only
 ever matched against text the user actually wrote, and tailoring vocabulary
 swaps are limited to conservative, meaning-preserving synonyms.
 """
+from __future__ import annotations
 import re
 
 # Canonical skill -> (display, group, regex pattern, broadly valuable)

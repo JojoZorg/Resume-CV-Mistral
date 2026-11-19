@@ -6,6 +6,7 @@ parser runs. The heuristic parser is also the validation/fallback layer — a CV
 parsed by the LLM but missing sections is re-processed heuristically and any
 blended result is marked for user review in the preview step.
 """
+from __future__ import annotations
 import json
 import re
 import unicodedata

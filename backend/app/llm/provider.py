@@ -5,6 +5,7 @@ first, then an OpenAI-compatible endpoint). Privacy defaults to local-only:
 when no provider is reachable the pipeline runs in deterministic mode and no
 data ever leaves the machine.
 """
+from __future__ import annotations
 import json
 import re
 
