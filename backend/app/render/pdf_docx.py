@@ -1,5 +1,6 @@
 """Export renderers: ATS PDF, designed PDF (both from HTML via xhtml2pdf)
 and ATS DOCX (python-docx). Single accent color, latin-1-safe fonts."""
+from __future__ import annotations
 import html
 import io
 import re

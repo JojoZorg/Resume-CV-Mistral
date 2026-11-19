@@ -4,6 +4,7 @@ The backend holds no persistent storage of CVs or JDs. Each request carries the
 session payload from the client; exports re-run the fabrication check and
 require an explicit acknowledgement that the diff was reviewed.
 """
+from __future__ import annotations
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response

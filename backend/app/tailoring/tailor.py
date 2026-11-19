@@ -16,6 +16,7 @@ User notes are honoured deterministically: a year mentioned in the notes ("hide
 my 2015 role") excludes any experience whose date range covers that year; a
 skill keyword ("emphasize my Python work") boosts relevant bullets.
 """
+from __future__ import annotations
 import re
 
 from ..llm.provider import SYSTEM_GUARDRAIL, get_provider

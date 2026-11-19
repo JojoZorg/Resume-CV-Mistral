@@ -1,4 +1,5 @@
 """Raw text extraction from PDF / DOCX uploads, plus URL fetching for JDs."""
+from __future__ import annotations
 import io
 import re
 

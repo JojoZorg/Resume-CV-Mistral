@@ -4,6 +4,7 @@ Compares the tailored CV against the original CV and flags any entity (skill,
 company, date, metric, title) present in the tailored output but absent from
 the original. Any flag blocks export until resolved.
 """
+from __future__ import annotations
 import re
 
 from ..schemas import CVData, FabricationFlag, FabricationReport, TailoredCV
